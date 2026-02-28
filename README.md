@@ -10,7 +10,7 @@ One file · Zero dependencies · 57KB binary
 [![macOS](https://img.shields.io/badge/macOS-13%2B-blue.svg)](https://www.apple.com/macos)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[English](#features) · [中文](#中文说明)
+**English** · [中文](README_CN.md)
 
 </div>
 
@@ -127,24 +127,6 @@ CREATE INDEX idx_timestamp ON clipboard(timestamp);
 ├── clip-log.log      # stdout log
 └── clip-log.err.log  # stderr log
 ```
-
----
-
-## 中文说明
-
-一个轻量级的 macOS 剪贴板历史记录工具。
-
-在后台默默记录你每次复制的文本内容、时间和来源应用，存入本地 SQLite 数据库。作为个人活动回顾和生活记录的数据基础 —— 你的剪贴板记录了你一天的轨迹：搜了什么、问了什么、关注了什么。
-
-**安装：**
-
-```bash
-git clone https://github.com/Tiny-cyber/clip-log.git
-cd clip-log
-chmod +x install.sh && ./install.sh
-```
-
-**特性：** 单文件 57KB · 自动去重 · 超过 1000 字自动跳过 · 记录来源 App · 开机自启 · 数据纯本地
 
 ## License
 
